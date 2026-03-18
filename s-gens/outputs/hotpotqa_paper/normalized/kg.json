@@ -1,0 +1,34 @@
+{
+  "triples": [
+    [
+      "Christopher Nolan",
+      "directed",
+      "Inception"
+    ],
+    [
+      "Inception",
+      "stars",
+      "Leonardo DiCaprio"
+    ],
+    [
+      "Christopher Nolan",
+      "directed",
+      "Interstellar"
+    ],
+    [
+      "Interstellar",
+      "stars",
+      "Matthew McConaughey"
+    ],
+    [
+      "Leonardo DiCaprio",
+      "won",
+      "Academy Award"
+    ],
+    [
+      "Academy Award",
+      "category",
+      "Best Actor"
+    ]
+  ]
+}

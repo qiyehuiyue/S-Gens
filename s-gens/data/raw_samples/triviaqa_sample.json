@@ -1,0 +1,20 @@
+﻿[
+  {
+    "QuestionId": "tq1",
+    "Question": "Who directed Inception?",
+    "Answer": {
+      "Value": "Christopher Nolan",
+      "Aliases": ["Christopher Nolan", "Nolan"]
+    },
+    "SearchResults": [
+      {
+        "Title": "Inception",
+        "Snippet": "Inception is a science fiction film written and directed by Christopher Nolan."
+      },
+      {
+        "Title": "Leonardo DiCaprio",
+        "Snippet": "Leonardo DiCaprio starred in Inception."
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+﻿{
+  "Questions": [
+    {
+      "Question": "Who starred in the film directed by Christopher Nolan about dreams?",
+      "SupportingText": "Christopher Nolan directed Inception. Leonardo DiCaprio starred in Inception.",
+      "Parses": [
+        {
+          "TopicEntityName": "Christopher Nolan",
+          "InferentialChain": [
+            "film.director.film",
+            "film.performance.actor"
+          ],
+          "Answers": [
+            {
+              "EntityName": "Leonardo DiCaprio"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

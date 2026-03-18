@@ -1,0 +1,11 @@
+[
+  {
+    "id": "webqsp-0",
+    "query": "Who starred in the film directed by Christopher Nolan about dreams?",
+    "positive_doc_id": "webqsp-doc-0",
+    "core_entities": [
+      "Christopher Nolan",
+      "Leonardo DiCaprio"
+    ]
+  }
+]

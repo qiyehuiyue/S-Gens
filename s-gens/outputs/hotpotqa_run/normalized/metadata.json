@@ -1,0 +1,6 @@
+{
+  "dataset": "hotpotqa",
+  "num_anchors": 1,
+  "num_documents": 2,
+  "num_triples": 6
+}

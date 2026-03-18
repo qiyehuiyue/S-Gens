@@ -1,0 +1,146 @@
+[
+  {
+    "anchor_id": "ex1",
+    "query": "Which actor starred in the movie directed by Christopher Nolan about dreams? Follow the reasoning chain starting from Christopher Nolan and directed Inception, then stars Leonardo DiCaprio.",
+    "positive_doc_id": "d1",
+    "negative_doc_id": "d2",
+    "path": {
+      "triples": [
+        {
+          "head": "Christopher Nolan",
+          "relation": "directed",
+          "tail": "Inception"
+        },
+        {
+          "head": "Inception",
+          "relation": "stars",
+          "tail": "Leonardo DiCaprio"
+        }
+      ]
+    },
+    "negative_type": "partial-path conflict",
+    "positive_consistency": 0.9999999999999998,
+    "negative_consistency": 0.0,
+    "weight": 2.4999999999999996
+  },
+  {
+    "anchor_id": "ex1",
+    "query": "Which actor starred in the movie directed by Christopher Nolan about dreams? Follow the reasoning chain starting from Christopher Nolan and directed Inception, then stars Leonardo DiCaprio.",
+    "positive_doc_id": "d1",
+    "negative_doc_id": "d3",
+    "path": {
+      "triples": [
+        {
+          "head": "Christopher Nolan",
+          "relation": "directed",
+          "tail": "Inception"
+        },
+        {
+          "head": "Inception",
+          "relation": "stars",
+          "tail": "Leonardo DiCaprio"
+        }
+      ]
+    },
+    "negative_type": "partial-path conflict",
+    "positive_consistency": 0.9999999999999998,
+    "negative_consistency": 0.0,
+    "weight": 2.4999999999999996
+  },
+  {
+    "anchor_id": "ex1",
+    "query": "Which actor starred in the movie directed by Christopher Nolan about dreams? Follow the reasoning chain starting from Christopher Nolan and directed Inception, then stars Leonardo DiCaprio.",
+    "positive_doc_id": "d1",
+    "negative_doc_id": "d4",
+    "path": {
+      "triples": [
+        {
+          "head": "Christopher Nolan",
+          "relation": "directed",
+          "tail": "Inception"
+        },
+        {
+          "head": "Inception",
+          "relation": "stars",
+          "tail": "Leonardo DiCaprio"
+        }
+      ]
+    },
+    "negative_type": "partial-path conflict",
+    "positive_consistency": 0.9999999999999998,
+    "negative_consistency": 0.0,
+    "weight": 2.4999999999999996
+  },
+  {
+    "anchor_id": "ex2",
+    "query": "Which Nolan-directed film stars Matthew McConaughey? Follow the reasoning chain starting from Christopher Nolan and directed Interstellar, then stars Matthew McConaughey.",
+    "positive_doc_id": "d2",
+    "negative_doc_id": "d6",
+    "path": {
+      "triples": [
+        {
+          "head": "Christopher Nolan",
+          "relation": "directed",
+          "tail": "Interstellar"
+        },
+        {
+          "head": "Interstellar",
+          "relation": "stars",
+          "tail": "Matthew McConaughey"
+        }
+      ]
+    },
+    "negative_type": "partial-path conflict",
+    "positive_consistency": 0.9999999999999998,
+    "negative_consistency": 0.0,
+    "weight": 2.4999999999999996
+  },
+  {
+    "anchor_id": "ex2",
+    "query": "Which Nolan-directed film stars Matthew McConaughey? Follow the reasoning chain starting from Christopher Nolan and directed Interstellar, then stars Matthew McConaughey.",
+    "positive_doc_id": "d2",
+    "negative_doc_id": "d1",
+    "path": {
+      "triples": [
+        {
+          "head": "Christopher Nolan",
+          "relation": "directed",
+          "tail": "Interstellar"
+        },
+        {
+          "head": "Interstellar",
+          "relation": "stars",
+          "tail": "Matthew McConaughey"
+        }
+      ]
+    },
+    "negative_type": "partial-path conflict",
+    "positive_consistency": 0.9999999999999998,
+    "negative_consistency": 0.0,
+    "weight": 2.4999999999999996
+  },
+  {
+    "anchor_id": "ex2",
+    "query": "Which Nolan-directed film stars Matthew McConaughey? Follow the reasoning chain starting from Christopher Nolan and directed Interstellar, then stars Matthew McConaughey.",
+    "positive_doc_id": "d2",
+    "negative_doc_id": "d4",
+    "path": {
+      "triples": [
+        {
+          "head": "Christopher Nolan",
+          "relation": "directed",
+          "tail": "Interstellar"
+        },
+        {
+          "head": "Interstellar",
+          "relation": "stars",
+          "tail": "Matthew McConaughey"
+        }
+      ]
+    },
+    "negative_type": "partial-path conflict",
+    "positive_consistency": 0.9999999999999998,
+    "negative_consistency": 0.0,
+    "weight": 2.4999999999999996
+  }
+]

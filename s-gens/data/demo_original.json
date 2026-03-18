@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ex1",
+    "query": "Which actor starred in the movie directed by Christopher Nolan about dreams?",
+    "positive_doc_id": "d1",
+    "core_entities": ["Christopher Nolan", "Leonardo DiCaprio"]
+  },
+  {
+    "id": "ex2",
+    "query": "Which Nolan-directed film stars Matthew McConaughey?",
+    "positive_doc_id": "d2",
+    "core_entities": ["Christopher Nolan", "Matthew McConaughey"]
+  }
+]
+

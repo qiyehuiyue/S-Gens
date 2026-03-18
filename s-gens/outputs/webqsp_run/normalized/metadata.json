@@ -1,0 +1,6 @@
+{
+  "dataset": "webqsp",
+  "num_anchors": 1,
+  "num_documents": 1,
+  "num_triples": 6
+}

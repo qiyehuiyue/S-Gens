@@ -1,0 +1,18 @@
+﻿[project]
+name = "s-gens"
+version = "0.2.0"
+description = "Reference reproduction of the S-Gens synthetic data generation pipeline."
+requires-python = ">=3.11"
+
+[project.optional-dependencies]
+train = [
+  "torch>=2.2",
+  "transformers>=4.40",
+]
+
+[project.scripts]
+sgens = "sgens.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

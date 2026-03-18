@@ -1,0 +1,12 @@
+{
+  "dataset": "hotpotqa",
+  "preset": "paper",
+  "num_pairs": 1,
+  "num_triplets": 1,
+  "metrics": {
+    "mrr@10": 1.0,
+    "recall@20": 1.0,
+    "hit@1": 1.0
+  },
+  "run_dir": "E:\\paper\\MDPI\\s-gens\\outputs\\hotpotqa_paper"
+}

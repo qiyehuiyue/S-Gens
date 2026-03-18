@@ -1,0 +1,18 @@
+[
+  {
+    "source": "original",
+    "anchor_id": "hp1",
+    "query": "Which actor starred in the Christopher Nolan film about dreams?",
+    "positive_doc_id": "hotpotqa-0-0",
+    "weight": 1.0
+  },
+  {
+    "source": "synthetic",
+    "anchor_id": "hp1",
+    "query": "Which actor starred in the Christopher Nolan film about dreams? Follow the reasoning chain starting from Christopher Nolan and directed Inception, then stars Leonardo DiCaprio.",
+    "positive_doc_id": "hotpotqa-0-0",
+    "negative_doc_id": "hotpotqa-0-1",
+    "negative_type": "partial-path conflict",
+    "weight": 2.5
+  }
+]

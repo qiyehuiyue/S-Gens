@@ -1,0 +1,11 @@
+[
+  {
+    "id": "hp1",
+    "query": "Which actor starred in the Christopher Nolan film about dreams?",
+    "positive_doc_id": "hotpotqa-0-0",
+    "core_entities": [
+      "Inception",
+      "Christopher Nolan"
+    ]
+  }
+]

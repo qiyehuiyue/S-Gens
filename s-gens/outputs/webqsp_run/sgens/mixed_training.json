@@ -1,0 +1,9 @@
+[
+  {
+    "source": "original",
+    "anchor_id": "webqsp-0",
+    "query": "Who starred in the film directed by Christopher Nolan about dreams?",
+    "positive_doc_id": "webqsp-doc-0",
+    "weight": 1.0
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "config": {
+    "min_path_length": 2,
+    "max_path_length": 4,
+    "positive_path_coverage_threshold": 0.75,
+    "positive_similarity_threshold": 0.1,
+    "structural_inconsistency_threshold": 0.5,
+    "semantic_similarity_threshold": 0.1,
+    "consistency_positive_threshold": 0.55,
+    "consistency_negative_threshold": 0.45,
+    "synthetic_ratio": 0.3,
+    "candidate_pool_size": 12,
+    "max_negatives_per_positive": 3,
+    "temperature": 0.05,
+    "structural_negative_penalty": 1.5,
+    "retriever_backend": "lexical",
+    "retriever_model_name": null,
+    "query_generator_backend": "template",
+    "ollama_model": "llama3.1:8b",
+    "ollama_url": "http://127.0.0.1:11434",
+    "consistency_backend": "heuristic",
+    "gnn_checkpoint_path": null,
+    "semantic_pool_size": 8,
+    "entity_pool_size": 8,
+    "diversity_entity_substitution_quota": 1,
+    "diversity_relation_break_quota": 1,
+    "diversity_partial_path_quota": 1,
+    "reliability_weight_floor": 0.25
+  },
+  "metadata": {
+    "dataset": "hotpotqa",
+    "raw": "data\\raw_samples\\hotpotqa_sample.json",
+    "preset": "paper"
+  }
+}

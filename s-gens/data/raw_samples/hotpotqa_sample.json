@@ -1,0 +1,15 @@
+﻿[
+  {
+    "_id": "hp1",
+    "question": "Which actor starred in the Christopher Nolan film about dreams?",
+    "answer": "Leonardo DiCaprio",
+    "supporting_facts": [
+      ["Inception", 0],
+      ["Christopher Nolan", 0]
+    ],
+    "context": [
+      ["Inception", ["Inception is a film directed by Christopher Nolan.", "Leonardo DiCaprio stars in the film."]],
+      ["Christopher Nolan", ["Christopher Nolan is a British-American filmmaker."]]
+    ]
+  }
+]
